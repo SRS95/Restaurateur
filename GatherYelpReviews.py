@@ -27,8 +27,8 @@ def gatherReviews(restaurant):
 def createCSV(reviews, fname):
 	with open(fname, 'wb') as csvfile:
 		filewriter = csv.writer(csvfile, delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    	for row in reviews:
-    		spamwriter.writerow(row)
+		for row in reviews:
+			filewriter.writerow(row)
 
 if __name__ == "__main__":
 	main()
