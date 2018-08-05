@@ -1,0 +1,42 @@
+#kitchen-connect {	
+    height: 39px;	
+    width: 245px;	
+    color: #A4243B;
+    font-family: Futura;	
+    font-size: 30px;	
+    font-weight: bold;	
+    line-height: 40px;	
+    text-align: center;
+    float:left;
+    padding-right: 26px;
+}
+
+#logo {
+    float: left;
+    height: 52px;
+    width: 49px;
+    padding-top: 11px;
+}
+
+#customer-outline {
+    float:right;
+    height: 51px;
+    width: 50px;
+    padding-top: 15px;
+}
+
+#stars {
+    float:right;
+    height: 50px;
+    width: 80px;
+    padding-top: 15px;
+}
+
+#analytics {
+    float:right;
+    height: 51px;
+    width: 50px;
+    padding-left: 39px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
