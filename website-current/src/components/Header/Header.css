@@ -1,0 +1,51 @@
+#header {
+    background-color: white;
+    width: 100%;
+    min-width: 750px;
+}
+
+#kitchen-connect {
+    float: left;
+    height: 39px;
+    width: 245px;
+    color: #A4243B;
+    font-family: Futura;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+#logo {
+    float: left;
+    height: 52px;
+    width: 49px;
+    padding-top: 11px;
+    padding-left: 10px;
+}
+
+#customer-outline {
+    float:right;
+    height: 51px;
+    width: 50px;
+    padding-top: 15px;
+}
+
+#stars {
+    float:right;
+    height: 50px;
+    width: 80px;
+    padding-top: 15px;
+}
+
+#analytics {
+    float:right;
+    height: 51px;
+    width: 50px;
+    padding-left: 39px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+#correct-clear {
+    clear: both;
+}

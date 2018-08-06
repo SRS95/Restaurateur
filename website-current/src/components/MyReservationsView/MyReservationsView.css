@@ -1,0 +1,102 @@
+#reservations {
+    position: relative;
+    width: 80%;
+    min-width: 750px;
+    margin: auto;
+}
+
+#fill-tables {
+    width: 50%;
+}
+
+#looking-light {
+    text-align: center;
+    color: #A4243B;
+    font-family: Futura;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 37px;
+}
+
+.btn {
+    height: 60px;
+    width: 324px;
+    border-radius: 8px;
+    background-color: #A4243B;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-text {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Futura;
+    font-weight: 500;
+}
+
+#table-filter-container {
+    position: absolute;
+    width: 50%;
+    top: 60px;
+    right: 0px;
+}
+
+#table-container {
+    position: relative;
+    top: 50px;
+}
+
+.row-container {
+    margin-bottom: 25px;
+    background-color: white;
+    min-width: 1000px;
+}
+
+.prof-pic {
+    height: 75px;
+    width: 75px;
+    float:left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.customer-name {
+    height: 39px;	
+    width: 500px;	
+    color: #D46A6A;	
+    font-family: Futura;	
+    font-size: 24px;	
+    font-weight: 500;	
+    line-height: 40px;	
+    text-align: center;
+    float: left;
+    margin-top: 25px;
+}
+
+.reservation-row-text{
+    height: 39px;	
+    width: 150px;	
+    color: #D46A6A;	
+    font-family: Futura;	
+    font-size: 24px;	
+    font-weight: 500;	
+    line-height: 40px;	
+    text-align: center;
+    float: left;
+    margin-top: 25px;
+
+}
+
+.envelope{
+    height: 44.21px;	
+    width: 65px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px; 
+}
+
+.correct-clear {
+    clear: both;
+}
