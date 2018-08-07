@@ -2,16 +2,20 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Header from "../Header/Header.js"
 import "./MyReservationsView.css"
+import CustomerProfileView from "../CustomerProfileView/CustomerProfileView.js"
+import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 
 class Row extends React.Component {
     render() {
         return(
             <div className="row-container">
-                <img className="prof-pic" src={this.props.photo} alt="Marie Walters Photo" />
-                <h1 className="customer-name">{this.props.name}</h1>
+                <Link to={`/customers/${this.props.name}`}>
+                    <img className="prof-pic" src={`/${this.props.photo}`} alt="Marie Walters Photo" />
+                    <h1 className="customer-name">{this.props.name}</h1>
+                </Link>
                 <h1 className="reservation-row-text">{this.props.partySize} People</h1>
                 <h1 className="reservation-row-text">{this.props.category}</h1>
-                <img className="envelope" src="envelope.png" alt="Reservation Details" />
+                <img className="envelope" src={`/envelope.png`} alt="Reservation Details" />
                 <div className="correct-clear" />
             </div>
         );
@@ -23,7 +27,7 @@ class Table extends React.Component {
         return(
             <div id="table-container">
                 <Row photo="marie.png" name="Marie Walters" partySize="5" category="VIP"/>
-                <Row name="Fannie Douglas" photo="fannie.png" partySize="3" category="First Time" />
+                <Row name="Luigi Balbo Bertone di Sambuy" photo="fannie.png" partySize="3" category="First Time" />
                 <Row name="Eugina Hoffman" photo="eugina.png" partySize="6" category="Trending" />
             </div>
         );

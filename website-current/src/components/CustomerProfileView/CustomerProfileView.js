@@ -41,7 +41,7 @@ class KeyInfo extends React.Component {
     render() {
         return(
             <div id="key-info">
-                <img id="prof-pic" src="marie.png" alt="Marie's photo" />
+                <img id="prof-pic" src={`/marie.png`} alt="Marie's photo" />
                 <h1 id="customer-name">Marie Walters</h1>
                 <p className="customer-subtext">mariewalters@gmail.com</p>
                 <p className="customer-subtext">Last visit: May 7</p>
