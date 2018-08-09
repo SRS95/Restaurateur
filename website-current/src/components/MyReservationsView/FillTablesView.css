@@ -1,0 +1,111 @@
+#table {
+    position: relative;
+    top: 100px;
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    min-width: 750px;
+}
+
+#get-tables {
+    position: absolute;
+    right: 15px;
+    bottom: 47px;
+    height: 50px;
+    width: 15%;
+    border-radius: 8px;
+    background-color: #A4243B;
+}
+
+.btn-text {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Futura;
+    font-weight: 500;
+}
+
+#selector {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.selection-box {
+    margin-top: 10px;
+    margin-right: 5%; 
+    width: 25%;
+    float: left;
+}
+
+#time {
+    margin-left: 7.5%;
+}
+
+.selection-box-text {
+    color: #9B9B9B;
+    font-family: Futura;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+}
+
+.field-outline {
+    border: 1px solid #979797;
+    border-radius: 8px;
+    position: relative;
+    right: 3px;
+    bottom: 10px;
+}
+
+.correct-clear {
+    clear: both;
+}
+
+#selection-display-box {
+    margin-left: 7.5%;
+    padding-bottom: 20px;
+    width: 70%;
+}
+
+.selection-button {
+    height: 176px;	
+    width: 224px;	
+    border: 1px solid #979797;	
+    border-radius: 8px;
+}
+
+#reservation-time {
+    color: #9B9B9B;
+    font-family: Futura;
+}
+
+.radio-btn-form {
+    font-family: Futura;
+    color: #9B9B9B;
+}
+
+#selection-table {
+    width: 100%;
+    border: 1px solid #979797;
+    border-radius: 8px;
+    color: #9B9B9B;
+    font-family: Futura;
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    color: #979797;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+#number-of-parties-form {
+    font-family: Futura;
+    color: #9B9B9B;
+    margin-top: 32.5px;
+    margin-bottom: 32.5px;
+    margin-left: 10px;
+}

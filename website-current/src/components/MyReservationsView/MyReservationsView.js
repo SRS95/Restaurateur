@@ -10,12 +10,12 @@ class Row extends React.Component {
         return(
             <div className="row-container">
                 <Link to={`/customers/${this.props.name}`}>
-                    <img className="prof-pic" src={`/${this.props.photo}`} alt="Marie Walters Photo" />
+                    <img className="prof-pic" src={`/images/customers/${this.props.photo}`} alt="Marie Walters Photo" />
                     <h1 className="customer-name">{this.props.name}</h1>
                 </Link>
                 <h1 className="reservation-row-text">{this.props.partySize} People</h1>
                 <h1 className="reservation-row-text">{this.props.category}</h1>
-                <img className="envelope" src={`/envelope.png`} alt="Reservation Details" />
+                <img className="envelope" src={`/images/reservations/envelope.png`} alt="Reservation Details" />
                 <div className="correct-clear" />
             </div>
         );
@@ -38,11 +38,12 @@ class TableFilter extends React.Component {
     render() {
         return(
             <div id="table-filter-container">
-                <button id="reservations-dropdown-btn" className="btn">
-                    <h1 id="reservations-dropdown-btn-text" className="btn-text">
-                        6:00pm - 7:00pm
-                    </h1>
-                </button>
+                <select className="btn">
+                    <option value="5-6">5:00-6:00pm</option>
+                    <option value="6-7">6:00-7:00pm</option>
+                    <option value="7-8">7:00-8:00pm</option>
+                    <option value="8-9">8:00-9:00pm</option>
+                </select>
             </div>
         );
     }
@@ -53,9 +54,11 @@ class FillTables extends React.Component {
         return(
             <div id="fill-tables">
                 <h2 id="looking-light">Looking Light?</h2>
-                <button id="fill-tables-btn" className="btn">
-                    <h1 id="fill-tables-btn-text" className="btn-text">We can fill your tables!</h1>
-                </button>
+                <Link to={`/my-reservations/fill-tables`} style={{ textDecoration: 'none' }}>
+                    <button id="fill-tables-btn" className="btn">
+                        <h1 className="btn-text">We can fill your tables!</h1>
+                    </button>
+                </Link>
             </div>
         );
     }
@@ -77,7 +80,7 @@ export default class MyReservationsView extends React.Component {
     render() {
         return(
             <div>
-                <Header />
+                <Header current="calendar" />
                 <Reservations />
             </div>
         );

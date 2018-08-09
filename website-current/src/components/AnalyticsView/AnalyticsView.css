@@ -1,0 +1,64 @@
+#control-container {
+    width: 20%;
+    background-color: white;
+    position: relative;
+    left: 5%;
+    top: 5%
+}
+
+#control-header {
+    background-color: #A4243B;
+    position: relative;
+    top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#control-body {
+    background-color: #A4243B;
+    position: relative;
+    bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+}
+
+#panel-title {
+    text-align: center;
+    color: white;
+    font-family: Futura;
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.correct-clear {
+    clear: both;
+}
+
+.control-button {
+    background-color: #A4243B;
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 30%;
+    border: none;
+    margin-top: 10px;
+}
+
+#last-button {
+    margin-bottom: 10px;
+}
+
+.graphs-container {
+    width: 60%;
+    position: absolute;
+    top: 107px;
+    left: 30%;
+}
+
+.graph-header{
+    width: 100%;
+}
+
+.graph {
+    width: 100%;
+}
